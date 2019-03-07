@@ -2,11 +2,11 @@ package bicycles;
 
 public class BikeRide {
 
-//    private final Bicycle bicyle;
-    public Bicycle bicycle;
+    private final Bicycle bicycle;
+//    public Bicycle bicycle;
 
     public BikeRide(Bicycle bicycle) {
-           this.bicyle = bicycle;
+           this.bicycle = bicycle;
         }
 
 
@@ -20,6 +20,6 @@ public class BikeRide {
     }
 
     public int currentSpeed() {
-        return this.bicyle.currentSpeed();
+        return this.bicycle.currentSpeed();
     }
 }

@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BicycleTest {
     @Test
-    public void Acceleration(){
+    public void shouldAcceleration(){
         Bicycle bicycle = new Bicycle();
         BikeRide bikeRide = new BikeRide(bicycle);
         bikeRide.ride();

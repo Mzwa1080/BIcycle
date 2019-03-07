@@ -3,10 +3,6 @@ package bicycles;
 public class Bicycle {
     private int speed;
 
-    Bicycle(){
-
-    }
-
     public void accelerate(){
         speed += 5;
 //        System.out.printf("This is a Speed:%s", speed);
@@ -28,11 +24,11 @@ public class Bicycle {
          speed=0;
     }
 
-    public static void main(String[] args){
-        Bicycle getValue = new Bicycle();
-//        getValue.accelerate();
-        getValue.brake();
-//        getValue.currentSpeed();
-//        getValue.stop();
-    }
+//    public static void main(String[] args){
+//        Bicycle getValue = new Bicycle();
+////        getValue.accelerate();
+//        getValue.brake();
+////        getValue.currentSpeed();
+////        getValue.stop();
+//    }
 }
