@@ -1,6 +1,6 @@
 import bicycles.BikeRideOne;
 import bicycles.BikeRideTwo;
-import bicycles.*;
+import bicycles.BikeRideThree;
 
 import bicycles.models.Tandem;
 import org.junit.jupiter.api.Test;
@@ -32,5 +32,16 @@ public class TandemTest {
         assertEquals(bikeRide.currentSpeed(), 75);
     }
 
-    
+
+
+    //--------THIRD BIKE RIDE FOR TANDEM ---------
+    @Test
+    public void shouldThirdSpeedOfTandem(){
+        Tandem tandemRideThree = new Tandem();
+        BikeRideThree bikeRide = new BikeRideThree(tandemRideThree);
+        bikeRide.ride();
+
+//        System.out.println(bikeRide.currentSpeed());
+        assertEquals(bikeRide.currentSpeed(), 39);
+    }
 }

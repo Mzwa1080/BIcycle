@@ -1,6 +1,6 @@
 package bicycles;
 
- class BikeRideThree implements BikeRide{
+ public class BikeRideThree implements BikeRide{
     private final Bicycle bicycle;
 
 //----- This BIKE-RIDE-TWO is Taking Any Bike For A Ride() ----
