@@ -12,7 +12,7 @@ public class Tandem {
         BikeRide bikeRide = new BikeRide(tandemObj);
         bikeRide.ride();
 
-        System.out.printf("This is a tandem speed: %s", tandemObj.currentSpeed());
+//        System.out.printf("This is a tandem speed: %s",);
         assertEquals(1,1);
     }
 

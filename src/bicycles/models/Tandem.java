@@ -2,7 +2,7 @@ package bicycles.models;
 
 import bicycles.BicycleBase;
 
-public abstract class Tandem extends BicycleBase {
+public class Tandem extends BicycleBase {
     public void accelerate(){
         speed += 12;
     }
