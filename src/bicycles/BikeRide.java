@@ -1,8 +1,5 @@
 package bicycles;
 
-import bicycles.models.MountainBike;
-import bicycles.models.RoadBike;
-
 public class BikeRide  {
     private final Bicycle bicycle;
 
@@ -22,28 +19,14 @@ public class BikeRide  {
         this.bicycle.accelerate();
     }
 
+//    public void ride2(){
+//        this.bicycle.accelerate();
+//    }
+
 
     public int currentSpeed(){
         return this.bicycle.currentSpeed();
     }
 
-//    @Override
-//    public void accelerate() {
-//    speed +=5;
-//    }
-//
-//    @Override
-//    public void brake() {
-//    speed -=3;
-//    }
-//
-//    @Override
-//    public int currentSpeed() {
-//        return this.speed;
-//    }
-//
-//    @Override
-//    public void stop() {
-//        speed = 0;
-//    }
+
 }

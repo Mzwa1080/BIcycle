@@ -1,9 +1,8 @@
 package bicycles;
 
     public interface Bicycle{
-       // void ride();
 
-         void accelerate();
+        void accelerate();
 
          void brake();
 
@@ -11,6 +10,8 @@ package bicycles;
 
          void stop();
 
+
+        int changeSpeed(int newSpeed);
     }
 
 
