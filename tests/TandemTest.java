@@ -1,4 +1,7 @@
-import bicycles.BikeRide;
+import bicycles.BikeRideOne;
+import bicycles.BikeRideTwo;
+import bicycles.*;
+
 import bicycles.models.Tandem;
 import org.junit.jupiter.api.Test;
 
@@ -10,12 +13,24 @@ public class TandemTest {
     @Test
     public void shouldReturnSpeedOfTandem(){
         Tandem tandemObj = new Tandem();
-        BikeRide bikeRide = new BikeRide(tandemObj);
+        BikeRideOne bikeRide = new BikeRideOne(tandemObj);
         bikeRide.ride();
 
 //        System.out.println(bikeRide.currentSpeed());
         assertEquals(34,bikeRide.currentSpeed());
     }
+//It cannot test the void method
 
+//--------SECOND BIKE RIDE FOR TANDEM ---------
+    @Test
+    public void shouldSecondSpeedOfTandem(){
+        Tandem tandemRideTwo = new Tandem();
+        BikeRideTwo bikeRide = new BikeRideTwo(tandemRideTwo);
+        bikeRide.ride();
 
+//        System.out.println(bikeRide.currentSpeed());
+        assertEquals(bikeRide.currentSpeed(), 75);
+    }
+
+    
 }
