@@ -36,13 +36,18 @@ public class RoadBikeSpecificationTest {
     public void FunRideWithRoadBike(){
         FunRide funRoadBike = new FunRide(2);
         BicycleSpecification roadBikeSpec = new BicycleSpecification(11, 4,BicycleType.ROADBIKE);
+        BicycleSpecification tandem= new BicycleSpecification(11, 4,BicycleType.TANDEM);
+
         Bicycle bicycle = new BicycleFromSpec(roadBikeSpec);
+        Bicycle bicycle2 = new BicycleFromSpec(tandem);
+
         funRoadBike.Accept(bicycle);
-        funRoadBike.Accept(bicycle);
-        funRoadBike.Accept(bicycle);
+        funRoadBike.Accept(bicycle2);
 
         System.out.printf("PRINT THE BIKE-ENTERED: %s",funRoadBike.Accept(bicycle));
+        System.out.printf("PRINT THE BIKE TA-ENTERED: %s",funRoadBike.Accept(bicycle2));
 
+        System.out.printf("PRINT THE NUMBERS OF BIKES: %s", funRoadBike.GetCountForType(BicycleType.ROADBIKE));
         assertEquals(1,1);
     }
 }

@@ -6,14 +6,17 @@ import java.util.List;
 public class FunRide {
 //--
     private int max;
-    List <Bicycle> bikeList = new ArrayList<>();
+
+   private List <Bicycle> bikeList;
+
     public FunRide(int maxNum){
         this.max = maxNum;
+        bikeList = new ArrayList<>();
     }
 
     public String Accept(Bicycle bicyleType){
          //EMPTY LIST SO THAT ANY BIKETYPE CAN ENTER ON IT
-        if (bikeList.size() <= max){
+        if (bikeList.size() < max){
             bikeList.add(bicyleType);
             return "Accepted! ";
 // BIKETYPE ADDED TO THE LIST NOW I NEEED TO CHECK HOW MANY IN THE LIST
@@ -26,6 +29,7 @@ public class FunRide {
 //      I must use a enhanced loop looping through the bikelist
         for(Bicycle bike : bikeList){
 
+            System.out.printf("type: --> %s", bikeList.size());
             if(bike.getBicycleType() == getType){
                 counter++;
             }

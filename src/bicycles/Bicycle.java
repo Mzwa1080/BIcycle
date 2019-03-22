@@ -11,7 +11,7 @@ package bicycles;
          void stop();
 
 //         void BicycleType(Bicycle bicycleType);
-            BicycleType getBicycleType();
+        BicycleType getBicycleType();
 
         int changeSpeed(int newSpeed);
 

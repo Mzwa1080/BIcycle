@@ -21,8 +21,7 @@ public class BicycleFromSpec extends BicycleBase {
 
     @Override
     public BicycleType getBicycleType() {
-        return this.getBicycleType();
+        return this.getBicycleType(this.anyBicycle.getBicycleType());
     }
-
 
 }
