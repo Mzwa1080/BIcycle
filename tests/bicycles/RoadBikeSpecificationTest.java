@@ -31,4 +31,18 @@ public class RoadBikeSpecificationTest {
 
         assertEquals(bikeRide.currentSpeed(),100);
     }
+
+    @Test
+    public void FunRideWithRoadBike(){
+        FunRide funRoadBike = new FunRide(2);
+        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, 4,BicycleType.ROADBIKE);
+        Bicycle bicycle = new BicycleFromSpec(roadBikeSpec);
+        funRoadBike.Accept(bicycle);
+        funRoadBike.Accept(bicycle);
+        funRoadBike.Accept(bicycle);
+
+        System.out.printf("PRINT THE BIKE-ENTERED: %s",funRoadBike.Accept(bicycle));
+
+        assertEquals(1,1);
+    }
 }

@@ -22,4 +22,5 @@ public abstract class BicycleBase implements Bicycle{
     public BicycleType getBicycleType(BicycleType bicycleType){
           return bicycleType;
     }
+
 }

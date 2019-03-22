@@ -1,7 +1,9 @@
 package bicycles;
 
-public enum BicycleType {
+public enum BicycleType  {
     ROADBIKE,
     MOUNTAINBIKE,
-    TANDEM
+    TANDEM;
+
+
 }

@@ -18,4 +18,11 @@ public class BicycleFromSpec extends BicycleBase {
     public void brake() {
         this.changeSpeed(this.anyBicycle.getBrakeSpeed());
     }
+
+    @Override
+    public BicycleType getBicycleType() {
+        return this.getBicycleType();
+    }
+
+
 }
