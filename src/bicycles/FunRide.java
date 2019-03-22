@@ -14,7 +14,7 @@ public class FunRide {
         bikeList = new ArrayList<>();
     }
 
-    public String Accept(Bicycle bicyleType){
+    public String accept(Bicycle bicyleType){
          //EMPTY LIST SO THAT ANY BIKETYPE CAN ENTER ON IT
         if (bikeList.size() < max){
             bikeList.add(bicyleType);
@@ -24,7 +24,7 @@ public class FunRide {
             return "FUll!";
     }
 
-    public int GetCountForType(BicycleType getType){
+    public int getCountForType(BicycleType getType){
         int counter = 0;
 //      I must use a enhanced loop looping through the bikelist
         for(Bicycle bike : bikeList){
@@ -35,6 +35,11 @@ public class FunRide {
             }
         }
         return counter;
+    }
+
+    public int getEnteredCount(){
+        System.out.println(max);
+        return max;
     }
 
 //    public static void main( String [] args){

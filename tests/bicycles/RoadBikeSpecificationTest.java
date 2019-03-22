@@ -41,13 +41,13 @@ public class RoadBikeSpecificationTest {
         Bicycle bicycle = new BicycleFromSpec(roadBikeSpec);
         Bicycle bicycle2 = new BicycleFromSpec(tandem);
 
-        funRoadBike.Accept(bicycle);
-        funRoadBike.Accept(bicycle2);
-
-        System.out.printf("PRINT THE BIKE-ENTERED: %s",funRoadBike.Accept(bicycle));
-        System.out.printf("PRINT THE BIKE TA-ENTERED: %s",funRoadBike.Accept(bicycle2));
-
-        System.out.printf("PRINT THE NUMBERS OF BIKES: %s", funRoadBike.GetCountForType(BicycleType.ROADBIKE));
+        funRoadBike.accept(bicycle);
+        funRoadBike.accept(bicycle2);
+//-----------------------------------------TEST FOR ACCEPTED BIKE TYPE `-----------
+        System.out.printf("PRINT ACCEPTED/REJECTED!: %s",funRoadBike.accept(bicycle));
+//        System.out.println(funRoadBike.Accept(bicycle2));
+//------------------------------------------TEST FOR NUMBER OF ROADBIKE -----------
+        System.out.printf("PRINT THE TYPES OF BIKES: %s", funRoadBike.getCountForType(BicycleType.ROADBIKE));
         assertEquals(1,1);
     }
 }
