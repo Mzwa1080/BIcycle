@@ -2,6 +2,7 @@ package bicycles;
 
 public abstract class BicycleBase implements Bicycle{
     protected int speed;
+//    private Bicycle bicycleType;
 
     @Override
     public int currentSpeed() {
@@ -16,5 +17,9 @@ public abstract class BicycleBase implements Bicycle{
     @Override
     public int changeSpeed(int newSpeed){
         return this.speed += newSpeed;
+    }
+
+    public BicycleType getBicycleType(BicycleType bicycleType){
+          return bicycleType;
     }
 }
