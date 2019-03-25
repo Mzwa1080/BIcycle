@@ -29,7 +29,7 @@ public class FunRide {
 //      I must use a enhanced loop looping through the bikelist
         for(Bicycle bike : bikeList){
 
-            System.out.printf("type: --> %s", bikeList.size());
+//            System.out.printf("type: --> %s", bikeList.size());
             if(bike.getBicycleType() == getType){
                 counter++;
             }
@@ -37,7 +37,11 @@ public class FunRide {
         return counter;
     }
 
+//----ACCEPTS BICYCLES AND RETURN THE NUMBER OF THEM ALL
 
+    public int getEnteredCount(){
+         return bikeList.size();
+    }
 
 //    public static void main( String [] args){
 //        FunRide test = new FunRide(2);
