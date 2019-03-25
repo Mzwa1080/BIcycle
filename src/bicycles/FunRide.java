@@ -18,7 +18,7 @@ public class FunRide {
          //EMPTY LIST SO THAT ANY BIKETYPE CAN ENTER ON IT
         if (bikeList.size() < max){
             bikeList.add(bicyleType);
-            return "Accepted! ";
+            return "Accepted!";
 // BIKETYPE ADDED TO THE LIST NOW I NEEED TO CHECK HOW MANY IN THE LIST
         }
             return "FUll!";
