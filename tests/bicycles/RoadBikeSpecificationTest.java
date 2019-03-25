@@ -78,7 +78,6 @@ public class RoadBikeSpecificationTest {
         roadBIke.accept(roadBikeBicycle);
         roadBIke.accept(tandemBicycle);
 //---- SHOULD GIVE ME A NUMBER OF ROADBIKES(6) IN THE FUNRIDE -----
-
         assertEquals(6,roadBIke.getEnteredCount());
     }
 }

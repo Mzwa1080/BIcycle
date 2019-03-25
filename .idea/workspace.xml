@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a99c2cc-57f2-43ff-a1ca-fed9542b87b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/bicycles/FunRide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bicycles/FunRide.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bicycles/MountainBikeSpecificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bicycles/MountainBikeSpecificationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/TandemTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/bicycles/RoadBikeSpecificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bicycles/RoadBikeSpecificationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/bicycles/TandemSpecificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/bicycles/TandemSpecificationTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,10 +29,12 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/bicycles/FunRide.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="443">
-                  <caret line="43" column="23" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="23" />
+                <state relative-caret-position="315">
+                  <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#1059#1060#0" expanded="true" />
+                    <element signature="e#1105#1106#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -129,8 +130,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/tests/bicycles/RoadBikeSpecificationTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="519">
-                  <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+                <state relative-caret-position="489">
+                  <caret line="79" column="67" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -167,15 +168,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="248">
                   <caret line="18" column="25" selection-end-line="38" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/tests/TandemTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
@@ -228,9 +220,9 @@
         <option value="$PROJECT_DIR$/src/bicycles/BicycleFromSpec.java" />
         <option value="$PROJECT_DIR$/tests/bicycles/MountainBikeTest.java" />
         <option value="$PROJECT_DIR$/tests/TandemTest.java" />
-        <option value="$PROJECT_DIR$/src/bicycles/FunRide.java" />
         <option value="$PROJECT_DIR$/tests/bicycles/TandemSpecificationTest.java" />
         <option value="$PROJECT_DIR$/tests/bicycles/MountainBikeSpecificationTest.java" />
+        <option value="$PROJECT_DIR$/src/bicycles/FunRide.java" />
         <option value="$PROJECT_DIR$/tests/bicycles/RoadBikeSpecificationTest.java" />
       </list>
     </option>
@@ -297,7 +289,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553510757540" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553510913745" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../workshop/UnitTestingWorkshop" />
@@ -430,12 +422,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TandemSpecificationTest_HOWMANYTANDEMBikes - 2019.03.25 at 12h 33m 19s.xml">
-      <configuration name="TandemSpecificationTest.HOWMANYTANDEMBikes" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TandemSpecificationTest_HOWMANYTANDEMBikes - 2019.03.25 at 12h 33m 39s.xml">
-      <configuration name="TandemSpecificationTest.HOWMANYTANDEMBikes" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TandemSpecificationTest_HOWMANYTANDEMBikes - 2019.03.25 at 12h 36m 20s.xml">
       <configuration name="TandemSpecificationTest.HOWMANYTANDEMBikes" configurationId="JUnit" />
     </history-entry>
@@ -459,6 +445,12 @@
     </history-entry>
     <history-entry file="MountainBikeSpecificationTest_HowManyMountainBikes - 2019.03.25 at 12h 43m 57s.xml">
       <configuration name="MountainBikeSpecificationTest.HowManyMountainBikes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoadBikeSpecificationTest_HowManyRoadBikes - 2019.03.25 at 12h 45m 47s.xml">
+      <configuration name="RoadBikeSpecificationTest.HowManyRoadBikes" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoadBikeSpecificationTest_HowManyRoadBikes - 2019.03.25 at 12h 46m 00s.xml">
+      <configuration name="RoadBikeSpecificationTest.HowManyRoadBikes" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -633,16 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/bicycles/FunRide.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="43" column="23" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/bicycles/TandemSpecificationTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="699">
@@ -663,10 +645,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/bicycles/FunRide.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="33" column="26" lean-forward="true" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1059#1060#0" expanded="true" />
+            <element signature="e#1105#1106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/bicycles/RoadBikeSpecificationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="519">
-          <caret line="81" column="49" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+        <state relative-caret-position="489">
+          <caret line="79" column="67" selection-start-line="79" selection-start-column="67" selection-end-line="79" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
