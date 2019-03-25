@@ -37,10 +37,7 @@ public class FunRide {
         return counter;
     }
 
-    public int getEnteredCount(){
-        System.out.println(max);
-        return max;
-    }
+
 
 //    public static void main( String [] args){
 //        FunRide test = new FunRide(2);
