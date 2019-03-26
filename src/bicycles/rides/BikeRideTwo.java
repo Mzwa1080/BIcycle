@@ -1,6 +1,9 @@
-package bicycles;
+package bicycles.rides;
 
-public class BikeRideTwo implements BikeRide{
+import bicycles.Bicycle;
+import bicycles.rides.BikeRide;
+
+public class BikeRideTwo implements BikeRide {
     private final Bicycle bicycle;
 
 //----- This BIKE-RIDE-TWO is Taking Any Bike For A Ride() ----
