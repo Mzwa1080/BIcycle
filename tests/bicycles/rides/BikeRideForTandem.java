@@ -1,9 +1,6 @@
-package bicycles.BikeRide;
+package bicycles.rides;
 import bicycles.Bicycle;
 import bicycles.BicycleType;
-import bicycles.rides.BikeRideOne;
-import bicycles.rides.BikeRideTwo;
-import bicycles.rides.BikeRideThree;
 import bicycles.specification.BicycleFromSpec;
 import bicycles.specification.BicycleSpecification;
 import org.junit.Test;

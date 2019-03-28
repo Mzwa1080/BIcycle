@@ -1,10 +1,7 @@
-package bicycles.BikeRide;
+package bicycles.rides;
 
 import bicycles.Bicycle;
 import bicycles.BicycleType;
-import bicycles.rides.BikeRideOne;
-import bicycles.rides.BikeRideTwo;
-import bicycles.rides.BikeRideThree;
 import bicycles.specification.BicycleFromSpec;
 import bicycles.specification.BicycleSpecification;
 import org.junit.jupiter.api.Test;
@@ -18,7 +15,7 @@ public class BikeRideForRoadBike {
         Bicycle bicycle = new BicycleFromSpec(roadBikeSpec);
         BikeRideOne bikeRide =  new BikeRideOne(bicycle);
         bikeRide.ride();
-//        System.out.println(bikeRide.currentSpeed());
+//        System.out.println(rides.currentSpeed());
 
         assertEquals(bikeRide.currentSpeed(),36);
     }
@@ -29,7 +26,7 @@ public class BikeRideForRoadBike {
         Bicycle bicycles = new BicycleFromSpec(roadBikeSpec);
         BikeRideTwo bikeRide =  new BikeRideTwo(bicycles);
         bikeRide.ride();
-//        System.out.println(bikeRide.currentSpeed());
+//        System.out.println(rides.currentSpeed());
 
         assertEquals(bikeRide.currentSpeed(),76);
     }
@@ -40,7 +37,7 @@ public class BikeRideForRoadBike {
         Bicycle bicycless = new BicycleFromSpec(roadBikeSpec);
         BikeRideThree bikeRide =  new BikeRideThree(bicycless);
         bikeRide.ride();
-//        System.out.println(bikeRide.currentSpeed());
+//        System.out.println(rides.currentSpeed());
 
         assertEquals(bikeRide.currentSpeed(),43);
     }

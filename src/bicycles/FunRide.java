@@ -43,13 +43,5 @@ public class FunRide {
          return bikeList.size();
     }
 
-//    public static void main( String [] args){
-//        FunRide test = new FunRide(2);
-//        //new bikespec (11, -4, moun)
-//        test.Accept(BicycleType.MOUNTAINBIKE);
-//        test.Accept(BicycleType.TANDEM);
-//        test.Accept(BicycleType.ROADBIKE);
-//        System.out.println(test.GetCountForType(BicycleType.ROADBIKE));
-//    }
 
 }

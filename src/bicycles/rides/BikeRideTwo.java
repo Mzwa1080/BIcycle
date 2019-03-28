@@ -1,7 +1,6 @@
 package bicycles.rides;
 
 import bicycles.Bicycle;
-import bicycles.rides.BikeRide;
 
 public  class BikeRideTwo implements BikeRide {
     private final Bicycle bicycle;

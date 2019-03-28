@@ -5,5 +5,4 @@ public enum BicycleType  {
     MOUNTAINBIKE,
     TANDEM
 
-
 }
