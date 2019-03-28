@@ -1,5 +1,7 @@
-package bicycles;
+package bicycles.BikeRide;
 
+import bicycles.Bicycle;
+import bicycles.BicycleType;
 import bicycles.rides.BikeRideOne;
 import bicycles.rides.BikeRideTwo;
 import bicycles.rides.BikeRideThree;
@@ -12,7 +14,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class BikeRideForRoadBike {
     @Test
     public void RoadBikeOne(){
-        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4,BicycleType.ROADBIKE);
+        BicycleSpecification roadBikeSpec = new BicycleSpecification(11, -4, BicycleType.ROADBIKE);
         Bicycle bicycle = new BicycleFromSpec(roadBikeSpec);
         BikeRideOne bikeRide =  new BikeRideOne(bicycle);
         bikeRide.ride();

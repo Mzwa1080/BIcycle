@@ -1,5 +1,8 @@
-package bicycles;
+package bicycles.funride;
 
+import bicycles.Bicycle;
+import bicycles.BicycleType;
+import bicycles.FunRide;
 import bicycles.specification.BicycleFromSpec;
 import bicycles.specification.BicycleSpecification;
 import org.junit.Test;

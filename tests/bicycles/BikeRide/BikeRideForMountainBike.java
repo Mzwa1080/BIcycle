@@ -1,5 +1,7 @@
-package bicycles;
+package bicycles.BikeRide;
 
+import bicycles.Bicycle;
+import bicycles.BicycleType;
 import bicycles.rides.BikeRideOne;
 import bicycles.rides.BikeRideTwo;
 import bicycles.rides.BikeRideThree;

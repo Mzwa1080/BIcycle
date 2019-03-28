@@ -1,6 +1,7 @@
-package bicycles;
+package bicycles.bikeSpecification;
 
 
+import bicycles.BicycleType;
 import bicycles.specification.BicycleSpecification;
 import org.junit.jupiter.api.Test;
 
@@ -10,7 +11,7 @@ public class MountainBikeSpecificationTest {
 
     @Test
     public void MountainBikeAccelerationSpecification(){
-        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3,BicycleType.MOUNTAINBIKE);
+        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3, BicycleType.MOUNTAINBIKE);
         System.out.println(mountainBikeSpec.getAccelerationSpeed());
         assertEquals(mountainBikeSpec.getAccelerationSpeed(), 5);
     }
