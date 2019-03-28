@@ -15,6 +15,8 @@ package bicycles;
 
         int changeSpeed(int newSpeed);
 
+//        void ride();
+
 //        BicycleType getBicycleType(BicycleType bicycleType);
 
 //        void bicycleType(Bicycle bicycleType);

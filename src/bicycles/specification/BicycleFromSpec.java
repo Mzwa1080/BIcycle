@@ -25,4 +25,7 @@ public class BicycleFromSpec extends BicycleBase {
         return this.getBicycleType(this.anyBicycle.getBicycleType());
     }
 
+
+
+
 }
