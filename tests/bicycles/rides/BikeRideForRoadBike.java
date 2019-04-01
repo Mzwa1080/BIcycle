@@ -15,8 +15,6 @@ public class BikeRideForRoadBike {
         Bicycle bicycle = new BicycleFromSpec(roadBikeSpec);
         BikeRideOne bikeRide =  new BikeRideOne(bicycle);
         bikeRide.ride();
-//        System.out.println(rides.currentSpeed());
-
         assertEquals(bikeRide.currentSpeed(),36);
     }
 
@@ -26,8 +24,6 @@ public class BikeRideForRoadBike {
         Bicycle bicycles = new BicycleFromSpec(roadBikeSpec);
         BikeRideTwo bikeRide =  new BikeRideTwo(bicycles);
         bikeRide.ride();
-//        System.out.println(rides.currentSpeed());
-
         assertEquals(bikeRide.currentSpeed(),76);
     }
 
@@ -37,9 +33,6 @@ public class BikeRideForRoadBike {
         Bicycle bicycless = new BicycleFromSpec(roadBikeSpec);
         BikeRideThree bikeRide =  new BikeRideThree(bicycless);
         bikeRide.ride();
-//        System.out.println(rides.currentSpeed());
-
         assertEquals(bikeRide.currentSpeed(),43);
     }
-
 }

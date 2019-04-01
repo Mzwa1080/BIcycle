@@ -5,7 +5,7 @@ import bicycles.BicycleType;
 import bicycles.FunRide;
 import bicycles.specification.BicycleFromSpec;
 import bicycles.specification.BicycleSpecification;
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
