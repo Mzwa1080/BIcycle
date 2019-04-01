@@ -11,14 +11,14 @@ public class MountainBikeSpecificationTest {
 
     @Test
     public void MountainBikeAccelerationSpecification(){
-        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3, BicycleType.MOUNTAINBIKE);
-        assertEquals(mountainBikeSpec.getAccelerationSpeed(), 5);
+        BicycleSpecification mountainBikeAccelerationSpecification = new BicycleSpecification(5, -3, BicycleType.MOUNTAINBIKE);
+        assertEquals(mountainBikeAccelerationSpecification.getAccelerationSpeed(), 5);
     }
 
     @Test
-    public void MountainBikeBRAKESpecification(){
-        BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3,BicycleType.MOUNTAINBIKE);
-        assertEquals(mountainBikeSpec.getBrakeSpeed(), -3);
+    public void MountainBikeBrakeSpecification(){
+        BicycleSpecification mountainBikeBrakeSpec = new BicycleSpecification(5, -3,BicycleType.MOUNTAINBIKE);
+        assertEquals(mountainBikeBrakeSpec.getBrakeSpeed(), -3);
     }
 
 }

@@ -9,13 +9,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class TandemSpecificationTest {
     @Test
     public void TandemBikeAccelerationSpecification(){
-        BicycleSpecification tandemBikeSpec = new BicycleSpecification(12, -7, BicycleType.TANDEM);
-        assertEquals(tandemBikeSpec.getAccelerationSpeed(), 12);
+        BicycleSpecification tandemBikeAccelerationSpec = new BicycleSpecification(12, -7, BicycleType.TANDEM);
+        assertEquals(tandemBikeAccelerationSpec.getAccelerationSpeed(), 12);
     }
 
     @Test
     public void TandemBIkeBrakeSpecification(){
-        BicycleSpecification tandemBikeBrakeSPec = new BicycleSpecification(12,-7, BicycleType.TANDEM);
-        assertEquals(tandemBikeBrakeSPec.getBrakeSpeed(), -7);
+        BicycleSpecification tandemBikeBrakeSpecification = new BicycleSpecification(12,-7, BicycleType.TANDEM);
+        assertEquals(tandemBikeBrakeSpecification.getBrakeSpeed(), -7);
     }
 }
