@@ -14,10 +14,10 @@ public class FunRide {
         bikeList = new ArrayList<>();
     }
 
-    public String accept(Bicycle bicyleType){
+    public String accept(Bicycle bicycleType){
          //EMPTY LIST SO THAT ANY BIKETYPE CAN ENTER ON IT
-        if (bikeList.size() < max){
-            bikeList.add(bicyleType);
+        if (bikeList.size() < max && !bikeList.contains(bicycleType)) {
+            bikeList.add(bicycleType);
             return "Accepted!";
 // BIKETYPE ADDED TO THE LIST NOW I NEEED TO CHECK HOW MANY IN THE LIST
         }
@@ -27,9 +27,7 @@ public class FunRide {
     public int getCountForType(BicycleType getType){
         int counter = 0;
 //      I must use a enhanced loop looping through the bikelist
-        for(Bicycle bike : bikeList){
-
-//            System.out.printf("type: --> %s", bikeList.size());
+        for(Bicycle bike : bikeList ){
             if(bike.getBicycleType() == getType){
                 counter++;
             }

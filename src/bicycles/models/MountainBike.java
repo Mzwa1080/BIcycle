@@ -3,7 +3,7 @@
 ////import bicycles.Bicycle;
 //import bicycles.BicycleBase;
 //
-//public  class MountainBike extends BicycleBase {
+//public abstract   class MountainBike extends BicycleBase {
 //
 //    @Override
 //    public void accelerate() {

@@ -1,4 +1,4 @@
-package bicycles.funride;
+package bicycles.rides.funride;
 
 import bicycles.Bicycle;
 import bicycles.BicycleType;
@@ -15,22 +15,6 @@ public class FunRideForMountainBike {
         FunRide mountainBike = new FunRide(9);
         BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3, BicycleType.MOUNTAINBIKE);
         Bicycle mountainBicycle = new BicycleFromSpec(mountainBikeSpec);
-
-        BicycleSpecification RoadBikeBicycle  = new BicycleSpecification(11,-4,BicycleType.ROADBIKE);
-        Bicycle roadBike = new BicycleFromSpec(RoadBikeBicycle);
-
-        BicycleSpecification tandem  = new BicycleSpecification(11,-4,BicycleType.ROADBIKE);
-        Bicycle tandemBike = new BicycleFromSpec(tandem);
-
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(roadBike);
-        mountainBike.accept(tandemBike);
-        mountainBike.accept(tandemBike);
-
-
         assertEquals("Accepted!", mountainBike.accept(mountainBicycle));
     }
 
@@ -39,23 +23,18 @@ public class FunRideForMountainBike {
         FunRide mountainBike = new FunRide(10);
         BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3, BicycleType.MOUNTAINBIKE);
         Bicycle mountainBicycle = new BicycleFromSpec(mountainBikeSpec);
+        Bicycle mountainBicycle2 = new BicycleFromSpec(mountainBikeSpec);
+        Bicycle mountainBicycle3 = new BicycleFromSpec(mountainBikeSpec);
 
         BicycleSpecification RoadBikeBicycle  = new BicycleSpecification(11,-4,BicycleType.ROADBIKE);
         Bicycle roadBike = new BicycleFromSpec(RoadBikeBicycle);
 
         mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
+        mountainBike.accept(mountainBicycle2);
+        mountainBike.accept(mountainBicycle3);
         mountainBike.accept(roadBike);
 
-        assertEquals(10, mountainBike.getCountForType(BicycleType.MOUNTAINBIKE));
+        assertEquals(3, mountainBike.getCountForType(BicycleType.MOUNTAINBIKE));
     }
 
 
@@ -64,23 +43,20 @@ public class FunRideForMountainBike {
         FunRide mountainBike = new FunRide(19);
         BicycleSpecification mountainBikeSpec = new BicycleSpecification(5, -3, BicycleType.MOUNTAINBIKE);
         Bicycle mountainBicycle = new BicycleFromSpec(mountainBikeSpec);
+        Bicycle mountainBicycle2 = new BicycleFromSpec(mountainBikeSpec);
+        Bicycle mountainBicycle3 = new BicycleFromSpec(mountainBikeSpec);
 
         BicycleSpecification RoadBikeBicycle  = new BicycleSpecification(11,-4,BicycleType.ROADBIKE);
         Bicycle roadBike = new BicycleFromSpec(RoadBikeBicycle);
+        Bicycle roadBike2 = new BicycleFromSpec(RoadBikeBicycle);
 
         mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
-        mountainBike.accept(mountainBicycle);
+        mountainBike.accept(mountainBicycle2);
         mountainBike.accept(roadBike);
+        mountainBike.accept(roadBike2);
 
-        assertEquals(11, mountainBike.getEnteredCount());
+
+        assertEquals(4, mountainBike.getEnteredCount());
     }
 }
 
